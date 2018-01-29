@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'/>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人網站</title>
+    <script type="text/javascript" src="js/index.js"></script>
+  </head>
+<body>
+
+<div class="empty">
+  <button type="button" class="menu-button">
+    三
+  </button>
+<input type="checkbox" class="menu-button-checkbox">
+      <ul class="menu">
+        <li><a href="#about">Who am I</a></li>
+        <li><a href="#my-work">My Work</a></li>
+        <li><a href="#contact-me">Contact me</a></li>
+      </ul>
+</div>
+
+<div id="about">
+  <img class="imgwh" src="img/My face.jpg" alt="my avatar">
+  <p class="about-p">姓名：劉政泰</p>
+  <p class="about-p">生日：1990</p>
+  <p class="about-p">畢業學校:正修科技大學</p>
+  <p class="about-p">工作经验：3年 科技業</p>
+  <p class="about-p">目前職業:設備助理工程師</p>
+</div>
+
+<div class="myworkdiv">
+  <div id="my-work">
+    <img class="my-work-img" src="img/1.png" alt="My Personal Site">
+      <div class="item-info" onclick="window.open('https://ljyuan5193.github.io/S18JavaScript/Q5/index.html', '備忘錄');">
+        <p>備忘錄</p>
+      </div>
+  </div>
+
+  <div id="my-work1">
+    <img class="my-work-img" src="img/2.png" alt="My Personal Site">
+      <div class="item-info" onclick="window.open('https://ljyuan5193.github.io/S18JavaScript/Q1/index.html', '自動關燈');" >
+        <p>自動關燈</p>
+      </div>
+  </div>
+
+  <div id="my-work2">
+    <img class="my-work-img" src="img/3.png" alt="My Personal Site">
+      <div class="item-info" onclick="window.open('https://ljyuan5193.github.io/S18JavaScript/hero/Q4/index.html', '英雄打怪');">
+        <p>英雄打怪</p>
+      </div>
+  </div>
+
+  <div id="my-work3">
+    <img class="my-work-img" src="img/4.png" alt="My Personal Site">
+      <div class="item-info" onclick="window.open('https://www.codewars.com/users/ljyuan5193/completed', 'Codewars');">
+        <p>Code練習</p>
+      </div>
+  </div>
+</div>
+
+<div id="contact-me">
+  <h1 class="contact-h1" >Contact me</h1>
+    <form action="" class="contact-form">
+      <div class="form-row">
+        <label for="name">姓名：</label>
+        <input id="name" name="name" type="text">
+      </div>
+      <div class="form-row">
+        <label for="email">email</label>
+        <input id="email" name="email" type="email">
+      </div>
+      <div class="form-row">
+        <label for="message">訊息</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+    </form>
+</div>
+
+<div class="form-button">
+  <div class="form-row">
+    <button type="reset" onclick="reset();">重設</button>
+    <button type="sumbit" onclick="finish();">提交</button>
+  </div>
+</div>
+
+</body>
+</html>

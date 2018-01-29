@@ -1,0 +1,361 @@
+
+  a {
+    display: block;
+    color: #660066;
+    text-decoration: none;
+  }
+
+  li:hover  {
+    border: 1px solid #ff6600;
+    background-color: #fff;
+
+  }
+
+  li:hover a {
+    color: #ff6600;
+
+  }
+
+  .item-info {
+    opacity: 0;
+    margin:60px 15px;
+     background-color: rgba(255,255,255,.8);   /* 背景半透明 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height:300px;
+  }
+
+  .item-info:hover {
+    opacity: 1;
+  }
+
+  .myworkdiv{
+  margin:80px 80px;
+
+  }
+
+  #my-work{
+  margin:50px 630px;
+    width: 125px;
+    height:350px;
+    position: relative;
+
+  }
+  #my-work1{
+  margin: -400px 860px;
+    width: 125px;
+    height:350px;
+  position: relative;
+  }
+
+  #my-work2{
+  margin:400px 630px;
+  width: 125px;
+  height:350px;
+  position: relative;
+  }
+
+  #my-work3{
+  margin:-748px 860px;
+  width: 125px;
+  height:350px;
+  position: relative;
+  }
+
+  .my-work-img{
+    margin:60px 15px;
+    width: 200px;
+    height:300px;
+
+  }
+
+  /*----------------以上设定 #my-work-----------------*/
+  #contact-me{
+  margin:800px 50px 150px 50px;
+
+  }
+
+  .contact-h1{
+  padding-top: 120px;
+  margin:-40px 820px ;
+  width: 480px;
+  height:200px;
+  }
+
+  form.contact-form {
+    margin:-80px 650px ;
+    width: 35%;
+
+  }
+
+  .form-row {
+
+    margin-bottom: 15px;
+  }
+
+
+  .form-row input, .form-row textarea {
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid #D6D9DC;
+    padding: 7px;
+  }
+
+  .form-row textarea {
+    resize: none;
+    height: 4em;
+
+  }
+  .form-row button {
+      margin:700px 7px 0px 0px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  .form-row button[type="sumbit"] {
+    background-color: #5995DA;
+    color: #FFFFFF;
+  }
+
+  .form-row button:hover {
+    background-color: #76AEED;
+  }
+
+  .form-row button:active {
+    background-color: #407FC7;
+  }
+  /*----------------以上设定 #contact-me-----------------*/
+@media screen and (min-width: 1152px) {
+  .menu-button,
+  .menu-button-checkbox {
+    display: none;
+  }
+
+  body{
+  margin:0px;
+  padding:0px;
+  background: url(img/images.jpg) no-repeat center center fixed;
+  background-size: cover;
+
+  }
+
+  #about{
+  margin:10px 850px;
+  }
+
+  .imgwh{
+  width: 240px;
+  height:240px;
+  }
+
+
+
+  .menu li {
+    display: block;
+    width: 250px;
+    margin:140px 40px auto;
+    list-style-type: none;
+    text-align: center;
+    font-size:40px;
+    z-index: 100;
+
+  }
+
+  .about-p{
+    margin:60px -60px;
+    display: block;
+    width: 480px;
+    font-size:24px;
+    color: #ff6600;
+  }
+  .empty{
+
+  width: 480px;
+  height:160px;
+  display:block;
+  margin:0px 90px auto;
+  position: fixed;
+  z-index: 100;
+
+  }
+  /*----------------以上设定 about-----------------*/
+
+  .form-button {
+  margin:-800px 750px ;
+      width: 150px;
+
+  }
+}
+
+@media screen and (max-width:1151px) {
+  body{
+  margin:0px;
+  padding:0px;
+  background: url(img/images2.png) no-repeat center center fixed;
+background-size: cover;
+  }
+
+  .imgwh{
+    margin:0px 0px;
+  width: 160px;
+  height:160px;
+  }
+
+  #about{
+      margin:60px 100px;
+
+  }
+  .about-p{
+      margin:40px 0px;
+    display: block;
+    font-size:24px;
+    color: #ff6600;
+
+  width: 100%;
+
+  }
+
+  .menu-button {
+    top:0;
+    position: fixed;
+    margin:0px -80px;
+    width: 55px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    color: white;
+    background: transparent;
+    border: 0;
+  }
+
+  .menu-button-checkbox {
+    position: fixed;
+    margin:-60px -80px;
+    width: 55px;
+    height: 40px;
+    opacity: 0;
+  }
+
+  .menu-button-checkbox:checked ~ .menu {
+    display: inline;
+  }
+
+  .menu {
+    display: none;
+    margin-top: 0;
+    padding-left: 0;
+    position: fixed;
+    margin:-20px -120px;
+    width: 150px;
+    height: 100%;
+  }
+
+    .menu li {
+
+      margin:20px 20px;
+      list-style-type: none;
+      text-align: center;
+      font-size:18px;
+
+
+    }
+  .empty{
+
+  width: 480px;
+  height:160px;
+  display:block;
+  margin:0px 90px auto;
+  position: fixed;
+  z-index: 100;
+
+  }
+
+  li:hover  {
+    border: 1px solid #ff6600;
+    background-color: #fff;
+    width: 110px;
+    height:24px;
+  }
+
+
+
+  .myworkdiv{
+  margin:80px 10px;
+
+  }
+
+  #my-work{
+  margin:0px 60px;
+    width: 125px;
+    height:350px;
+    position: relative;
+
+  }
+  #my-work1{
+  margin: 0px 60px;
+    width: 125px;
+    height:350px;
+  position: relative;
+  }
+
+  #my-work2{
+  margin:0px 60px;
+  width: 125px;
+  height:350px;
+  position: relative;
+  }
+
+  #my-work3{
+  margin:0px 60px;
+  width: 125px;
+  height:350px;
+  position: relative;
+  }
+
+
+  #contact-me{
+    margin:120px 60px ;
+
+    width: 240px;
+    height:350px;
+
+  }
+
+  .contact-h1{
+margin:0px 40px ;
+width: 200px;
+
+  }
+
+    form.contact-form {
+      margin:-120px 0px ;
+      width: 35%;
+      height:350px;
+    }
+    .form-row {
+  margin:10px 20px ;
+        width: 150px;
+        height:50px;
+    }
+#name{
+  width: 200px;
+}
+#email{
+  width: 200px;
+}
+#message{
+  width: 200px;
+}
+.form-button {
+      margin:-700px 7px 0px 60px;
+    width: 150px;
+    height:50px;
+}
+ .form-row input, .form-row textarea {
+    width: 30%;
+  }
+}
